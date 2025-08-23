@@ -4,6 +4,10 @@
 * [esp-idf examples (master)](https://github.com/espressif/esp-idf/tree/master/examples)
 * [esp-idf-tools (master)](https://github.com/PrincessPi3/esp-idf-tools)
 
+## Devkit
+* [Product Page](https://en.wireless-tag.com/product-item-66.html)
+* [Sale Page (Aliexpress)](https://www.aliexpress.us/item/3256809513099697.html)
+
 ## ESP32-C5
 * [esp-idf docs (master C5)](https://docs.espressif.com/projects/esp-idf/en/latest/esp32c5/index.html)
 * [ESP32-C5 Datasheet](assets/esp32c5/esp32-c5-wroom-1_wroom-1u_datasheet_en.pdf)
