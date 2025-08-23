@@ -7,7 +7,8 @@
 ## Devkit
 * [Product Page](https://en.wireless-tag.com/product-item-66.html)
 * [Sale Page (Aliexpress)](https://www.aliexpress.us/item/3256809513099697.html)
-* [Guide](assets/de)
+* [Guide](assets/devkit/WT99P4C5-S1_Guide_en_v1.2.pdf)
+* [Schematic](assets/devkit/WT99P4C5-S1_Guide_en_v1.2.pdf)
 
 ## ESP32-C5
 * [esp-idf docs (master C5)](https://docs.espressif.com/projects/esp-idf/en/latest/esp32c5/index.html)
