@@ -1,84 +1,25 @@
-Web interface running on the C5
-    Web interface
-        Terminal
-        Oscilloscope / Raw Sniff
-            ADC
-        Logic Sniff
-            Direct GPIO Access (asm optimized) or
-            RMT
-        Manual Timing GPIO
-            Direct GPIO Access (asm optimized) or
-            RMT
-        Volage Glitching
-            Direct GPIO Access (asm optimized) or
-            RMT
-        Sniff/Detect/IO Protocols
-            UART
-            SPI
-            I2C
-            1Wire
-            Raw (ADC)
-            Bit Bang
-Freertos on core 0 of P4
-    Core 0 of P4 responsible for
-        "administratvie"
-        communicate with C5 web interface
-        parse and handle commands
-        user i/o
-            UART
-            SPI
-            I2C
-            1Wire
-No rtos on core 1
-Core 1 of P4 responsible for
+link devkit docs
+add devkit links
+add devkit repo
+figure out pinouts
+    ADC
     Direct GPIO Access
-        Logic sniff
-        Bit Banging
     RMT
-        manually timed GPIO
-            r/w
-    ADC
-        Raw Sniff
-
-Utilize:
-    FreeRTOS
-    Web Interface Over WiFi
-        Station Mode or
-        AP mode
-    Remote Control transceiver (RMT)
-        Timed GPIO i/o
-            Bit Bang
-            Custom Protocols
-    Dedicated GPIO Access (asm optimized)
-        Logic Sniff
-        Voltage Glitching
-        Manual Bit Bang
-    Interprocesser Call (asm optimized)
-        Communicate Between Core 0 (FreeRTOS) and Core 1 (ASM Optimized Attack Core)
-    ADC
-        Raw Sniff
-            Oscilloscope
-    Typical Protocols
-        UART
-        SPI
-        I2C
-    Logging
-        Logic Sniff
-        Raw Sniff (Oscilloscope)
-        Command History
-        Web Interface Action History
-        IO History
-        To:
-            SD Card
-            Host over UART
-            Web Interface/Terminal
-                With export formats
-                    CSV
-                    XML
-                    Text
-                    Etc
-    USB-Passthrough
-        Emulate ft232
-            UART
-            SPI
-            I2C
+    UART
+    SPI
+    I2C
+figure out c5+p4 setup
+figure out p4 lp core
+figure out ipc on p4 with FreeRTOS to non-FreeRTOS
+use stable esp-idf version
+    or log git commit hash off latest install if forced to?
+use stable environment
+    log commit hash time and current git hash of 
+        esp-idf
+        esp-idf-tools
+        devkit docs
+        devkit github
+use actual commit messages lmfao
+flesh out roadmap
+    make map of requiredments
+    actually try and attempt and begin to actually archetect this thing
