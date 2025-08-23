@@ -1,0 +1,5 @@
+build
+old
+*.tmp*
+*.bak*
+sdkconfig
