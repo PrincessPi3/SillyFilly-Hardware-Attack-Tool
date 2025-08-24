@@ -49,10 +49,12 @@ Utilize:
         Timed GPIO i/o
             Bit Bang
             Custom Protocols
+            Custom Hardware fuzz/sniff mode
     Dedicated GPIO Access (asm optimized)
         Logic Sniff
         Voltage Glitching
         Manual Bit Bang
+        Custom Hardware fuzz/sniff mode
     Interprocesser Call (asm optimized)
         Communicate Between Core 0 (FreeRTOS) and Core 1 (ASM Optimized Attack Core)
     ADC
