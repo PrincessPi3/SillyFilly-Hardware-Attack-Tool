@@ -13,12 +13,12 @@
 
 ## ESP32-C5
 * [esp-idf docs (C5 v5.5)](https://docs.espressif.com/projects/esp-idf/en/release-v5.5/esp32c5/index.html)
-* [ESP32-C5 Datasheet](assets/esp32c5/esp32-c5-wroom-1_wroom-1u_datasheet_en.pdf)
-* [ESP32-P4 Technical Reference](assets/esp32c5/esp32-c5_technical_reference_manual_en.pdf)
+* [ESP32-C5 Datasheet (Pre-Release v0.6)](assets/esp32c5/esp32-c5-wroom-1_wroom-1u_datasheet_en.pdf)
+* [ESP32-P4 Technical Reference (Pre-Release v0.2)](assets/esp32c5/esp32-c5_technical_reference_manual_en.pdf)
 
 ## ESP32-P4
 * [esp-idf docs (P4 v5.5)](https://docs.espressif.com/projects/esp-idf/en/v5.5/esp32p4/index.html)
     * [Remote Control Transceiver (RMT) (P4 v5.5)](https://docs.espressif.com/projects/esp-idf/en/release-v5.5/esp32p4/api-reference/peripherals/rmt.html)
     * [Dedicated GPIO (P4 v5.5)](https://docs.espressif.com/projects/esp-idf/en/v5.5/esp32p4/api-reference/peripherals/dedic_gpio.html)
-* [ESP32-P4 Datasheet](assets/esp32p4/esp32-p4_datasheet_en.pdf)
-* [ESP32-P4 Technical Reference](assets/esp32p4/esp32-p4_technical_reference_manual_en.pdf)
+* [ESP32-P4 Datasheet (Pre-Release v0.5)](assets/esp32p4/esp32-p4_datasheet_en.pdf)
+* [ESP32-P4 Technical Reference (Pre-Release v0.1)](assets/esp32p4/esp32-p4_technical_reference_manual_en.pdf)
