@@ -17,9 +17,9 @@
 ## ESP32-C5
 * [Product Page](https://www.espressif.com/en/products/socs/esp32-c5)
 * [ESP-IDF Docs (C5)](https://docs.espressif.com/projects/esp-idf/en/release-v5.5/esp32c5/index.html)
-    * esp-hosted docs
-        * esp-hosted slave docs
-            * esp-idf example slave
+    * [ESP-Hosted Docs](https://components.espressif.com/components/espressif/esp_hosted/versions/2.3.1/readme)
+        * [ESP-Hosted Example](https://github.com/espressif/esp-hosted-mcu)
+        ESP-Hosted Slave Example: `idf.py create-project-from-example "espressif/esp_hosted:slave"`
 * [ESP32-C5 Datasheet (Pre-Release v0.6)](assets/esp32c5/esp32-c5-wroom-1_wroom-1u_datasheet_en.pdf)
 * [ESP32-C5 Technical Reference (Pre-Release v0.2)](assets/esp32c5/esp32-c5_technical_reference_manual_en.pdf)
 
