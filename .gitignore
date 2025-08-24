@@ -4,3 +4,4 @@ old
 *.tmp*
 *.bak*
 sdkconfig
+managed_components
