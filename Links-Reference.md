@@ -10,7 +10,9 @@
 * [Guide](assets/devkit-WT99P4C5-S1/WT99P4C5-S1_Guide_en_v1.2.pdf)
 * [Schematic](assets/devkit-WT99P4C5-S1/WT99P4C5-S1_Guide_en_v1.2.pdf)
 * [Github Examples](https://github.com/wireless-tag-com/DevBoard/tree/WT99P4C5-S1)
-* add pinout chart snips
+[![Devkit WT99P4C5-S1](assets/devkit-WT99P4C5-S1/Legend.png)](assets/devkit-WT99P4C5-S1/WT99P4C5-S1_Guide_en_v1.2.pdf#?page=6)
+[![GPIO Block (J6) Pinout pt 1](assets/devkit-WT99P4C5-S1/J6-1.png)](assets/devkit-WT99P4C5-S1/WT99P4C5-S1_Guide_en_v1.2.pdf#page=12)
+[![GPIO Block (J6) Pinout pt 2](assets/devkit-WT99P4C5-S1/J6-2.png)](assets/devkit-WT99P4C5-S1/WT99P4C5-S1_Guide_en_v1.2.pdf#page=12)
 
 ## ESP32-C5
 * [Product Page](https://www.espressif.com/en/products/socs/esp32-c5)
