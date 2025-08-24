@@ -1,20 +1,14 @@
-# Reduce bootloader log verbosity
+# This file was generated using idf.py save-defconfig. It can be edited manually.
+# Espressif IoT Development Framework (ESP-IDF) 5.5.0 Project Minimal Configuration
+#
+CONFIG_IDF_TARGET="esp32p4"
 CONFIG_BOOTLOADER_LOG_LEVEL_WARN=y
-CONFIG_BOOTLOADER_LOG_LEVEL=2
-
-# Increase main task stack size
-CONFIG_ESP_MAIN_TASK_STACK_SIZE=7168
-
-# Enable filesystem
+CONFIG_ESPTOOLPY_HEADER_FLASHSIZE_UPDATE=y
 CONFIG_PARTITION_TABLE_CUSTOM=y
 CONFIG_PARTITION_TABLE_CUSTOM_FILENAME="partitions_example.csv"
-CONFIG_PARTITION_TABLE_FILENAME="partitions_example.csv"
-
-# Enable FreeRTOS stats formatting functions, needed for 'tasks' command
+CONFIG_ESP_SYSTEM_PANIC_PRINT_HALT=y
+CONFIG_ESP_MAIN_TASK_STACK_SIZE=7168
+CONFIG_ESP_CONSOLE_SECONDARY_NONE=y
 CONFIG_FREERTOS_USE_TRACE_FACILITY=y
 CONFIG_FREERTOS_USE_STATS_FORMATTING_FUNCTIONS=y
-
-CONFIG_ESPTOOLPY_FLASHSIZE_4MB=y
-
-# On chips with USB serial, disable secondary console which does not make sense when using console component
-CONFIG_ESP_CONSOLE_SECONDARY_NONE=y
+CONFIG_SLAVE_IDF_TARGET_ESP32C5=y
