@@ -84,6 +84,9 @@ Utilize:
             UART
             SPI
             I2C
+    Console componant for UART cli
+        break each console function into its own file for clarity?
+        web interface somewhat a wrapper for functions/cli
 Hardware:
     ESP32-P4
     ESP32-C5
