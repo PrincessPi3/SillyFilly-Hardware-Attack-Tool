@@ -1,0 +1,13 @@
+P4
+    x 16mb flash size
+    optimal flash settings
+    psram presence/size
+    SPI pins for C5 ESP-Hosted
+C5
+    UART
+    Bluetooth terminal?
+    flash size
+    optimal flash settings
+    psram presence/size
+    SPI pins for C5 ESP-Hosted
+    settings

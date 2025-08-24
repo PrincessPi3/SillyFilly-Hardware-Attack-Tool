@@ -7,9 +7,10 @@
 ## Devkit WT99P4C5-S1
 * [Product Page](https://en.wireless-tag.com/product-item-66.html)
 * [Sale Page (Aliexpress)](https://www.aliexpress.us/item/3256809513099697.html)
-* [Guide](assets/devkit/WT99P4C5-S1_Guide_en_v1.2.pdf)
-* [Schematic](assets/devkit/WT99P4C5-S1_Guide_en_v1.2.pdf)
+* [Guide](assets/devkit-WT99P4C5-S1/WT99P4C5-S1_Guide_en_v1.2.pdf)
+* [Schematic](assets/devkit-WT99P4C5-S1/WT99P4C5-S1_Guide_en_v1.2.pdf)
 * [Github Examples](https://github.com/wireless-tag-com/DevBoard/tree/WT99P4C5-S1)
+* add pinout chart snips
 
 ## ESP32-C5
 * [Product Page](https://www.espressif.com/en/products/socs/esp32-c5)
@@ -40,7 +41,7 @@
     * [PSRAM/SPI RAM/External RAM Docs](https://docs.espressif.com/projects/esp-idf/en/release-v5.5/esp32p4/api-guides/external-ram.html)
         * [Execute In Place (XIP) Docs](https://docs.espressif.com/projects/esp-idf/en/release-v5.5/esp32p4/api-guides/external-ram.html#external-ram-config-xip)
             * [ESP-IDF Example XIP](https://github.com/espressif/esp-idf/tree/release/v5.5/examples/system/xip_from_psram)
-    * ESP-Hosted Docs
-        * ESP-Hosted Host device
+    * [ESP-Hosted Docs](https://components.espressif.com/components/espressif/esp_hosted/versions/2.3.1/readme)
+        * [ESP-Hosted Example](https://github.com/espressif/esp-hosted-mcu)
 * [ESP32-P4 Datasheet (Pre-Release v0.5)](assets/esp32p4/esp32-p4_datasheet_en.pdf)
 * [ESP32-P4 Technical Reference (Pre-Release v0.1)](assets/esp32p4/esp32-p4_technical_reference_manual_en.pdf)

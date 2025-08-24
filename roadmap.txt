@@ -108,7 +108,7 @@ Hardware:
         shared ground?
     amplifier for weak raw sniff signals?
 
-Start with Console app over UART P4, no net yet
+Start with Console app over UART P4 then make web app run on c5 and execute console commands over SPI or UART
 ESP32-P4:
     Configure:
         CONFIG_IDF_TARGET="esp32p4"
@@ -134,4 +134,16 @@ ESP32-P4:
                     simoltanius rw
                 make a basic PoC ADC console interface
                 make a basic PoC Logic sniffing console iterface
-                
+ESP32-C5:
+    Code:
+        Default Boot:
+            WiFi AP mode
+                Connect to WiFi
+                    Scan
+                    Connect
+                    save to partion
+        Connect WiFi Boot:
+            Wifi Station Mode
+        Web Server:
+            Sends/Receives data/commands from P4 (console?)
+                UART or SPI
