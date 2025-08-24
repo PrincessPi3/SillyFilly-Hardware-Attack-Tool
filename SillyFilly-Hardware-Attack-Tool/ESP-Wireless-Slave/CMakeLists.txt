@@ -2,6 +2,9 @@
 # in this exact order for cmake to work correctly
 cmake_minimum_required(VERSION 3.5)
 
+# minimal build
+idf_build_set_property(MINIMAL_BUILD ON)
+
 # Add the wrap flag for esp_wifi_init
 add_compile_options(-Wl,--wrap=esp_wifi_init)
 
