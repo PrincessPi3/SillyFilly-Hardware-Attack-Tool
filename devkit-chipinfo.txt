@@ -1,0 +1,92 @@
+
+Getting ESP Chip Info...
+
+
+Chip ID:
+esptool.py v4.10.dev2
+Serial port /dev/ttyUSB0
+Connecting....
+Detecting chip type... ESP32-P4
+Chip is ESP32-P4 (revision v1.0)
+Features: High-Performance MCU
+Crystal is 40MHz
+MAC: 30:ed:a0:e0:cd:11
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Warning: ESP32-P4 has no Chip ID. Reading MAC instead.
+MAC: 30:ed:a0:e0:cd:11
+Hard resetting via RTS pin...
+
+Flash ID:
+esptool.py v4.10.dev2
+Serial port /dev/ttyUSB0
+Connecting....
+Detecting chip type... ESP32-P4
+Chip is ESP32-P4 (revision v1.0)
+Features: High-Performance MCU
+Crystal is 40MHz
+MAC: 30:ed:a0:e0:cd:11
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Manufacturer: 5e
+Device: 4018
+Detected flash size: 16MB
+Hard resetting via RTS pin...
+
+Flash Status:
+esptool.py v4.10.dev2
+Serial port /dev/ttyUSB0
+Connecting....
+Detecting chip type... ESP32-P4
+Chip is ESP32-P4 (revision v1.0)
+Features: High-Performance MCU
+Crystal is 40MHz
+MAC: 30:ed:a0:e0:cd:11
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Status value: 0x0000
+Hard resetting via RTS pin...
+
+Security Info:
+esptool.py v4.10.dev2
+Serial port /dev/ttyUSB0
+Connecting....
+Detecting chip type... ESP32-P4
+Chip is ESP32-P4 (revision v1.0)
+Features: High-Performance MCU
+Crystal is 40MHz
+MAC: 30:ed:a0:e0:cd:11
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+
+Security Information:
+=====================
+Flags: 0x00000000 (0b0)
+Key Purposes: (0, 0, 0, 0, 0, 0, 12)
+  BLOCK_KEY0 - USER/EMPTY
+  BLOCK_KEY1 - USER/EMPTY
+  BLOCK_KEY2 - USER/EMPTY
+  BLOCK_KEY3 - USER/EMPTY
+  BLOCK_KEY4 - USER/EMPTY
+  BLOCK_KEY5 - USER/EMPTY
+Chip ID: 18
+API Version: 2
+Secure Boot: Disabled
+Flash Encryption: Disabled
+SPI Boot Crypt Count (SPI_BOOT_CRYPT_CNT): 0x0
+Hard resetting via RTS pin...
+
+All donsies~ :3
+

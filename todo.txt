@@ -1,6 +1,3 @@
-link devkit docs
-add devkit links
-add devkit repo
 figure out pinouts
     ADC
     Direct GPIO Access
@@ -11,14 +8,6 @@ figure out pinouts
 figure out c5+p4 setup
 figure out p4 lp core
 figure out ipc on p4 with FreeRTOS to non-FreeRTOS
-use stable esp-idf version
-    or log git commit hash off latest install if forced to?
-use stable environment
-    log commit hash time and current git hash of 
-        esp-idf
-        esp-idf-tools
-        devkit docs
-        devkit github
 use actual commit messages lmfao
 flesh out roadmap
     make map of requiredments
